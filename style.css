@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+:root {
+    --primary-color: hsl(225, 100%, 94%);
+    --primary-color2: hsl(245, 75%, 52%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.container {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: var(--primary-color);
+    background-image: url(images/pattern-background-desktop.svg);
+    width: 100vw;
+    height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+/* Card */
+
+.card {
+    width: 25vw;
+    height: 75vh;
+    background-color: white;
+    border-radius: 20px;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* IMG Section */
+
+.top-section {
+    width: 25vw;
+    height: 25vh;
+    background-image: url(/order-summary-component-main/images/illustration-hero.svg);
+    background-size: cover;
+    border-radius: 25px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+/* Center section */
+
+.heading {
+    font-size: 20px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 701;
+}
+
+.paragraph {
+    text-align: center;
+    padding-inline: 70px;
+    color: hsl(224, 23%, 55%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    position: relative;
+    bottom: 18px;
+}
+
+/* Payment-Box */
+
+.payment-box {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 98%);
+    width: 18vw;
+    height: 12vh;
+    border-radius: 15px;
+    padding-left: 15px;
+    justify-content: space-between;
+    position: relative;
+    bottom: 35px;
+
+}
+
+.annual-plan {
+    flex-direction: column;
+    padding-left: 18px;
+    position: relative;
+    right: 48px;
+}
+
+.annual-plan h3 {
+    font-size: 17px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 605;
+    margin-bottom: 5px;
+    position: relative;
+    right: 12px;
+}
+
+.annual-plan h4 {
+    color: hsl(224, 23%, 55%);
+    font-weight: 400;
+    position: relative;
+    right: 12px;
+}
+
+.change-btn {
+    color: var(--primary-color2);
+    text-decoration: underline;
+    font-weight: 700;
+    font-family: 'Red Hat Display', sans-serif;
+    position: relative;
+    right: 30px;
+    font-size: 14px;
+}
+
+.change-btn:hover {
+    color:hsl(244, 53%, 64%);
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+}
+
+/* Purple Button */
+
+.purple-btn {
+    width: 19vw;
+    height: 6vh;
+    background-color: var(--primary-color2);
+    color: white;
+    border-radius: 15px;
+    font-weight: 600;
+    justify-content: center;
+    box-shadow: 0 30px 5px hsla(240, 1%, 61%, 0.125);
+    position: relative;
+    bottom: 45px;
+}
+
+.purple-btn:hover {
+    background-color: hsl(244, 53%, 64%);
+    cursor: pointer;
+    transition: 0.2s ease-out;
+}
+
+.cancel-order {
+    color: hsl(224, 23%, 55%);
+    position: relative;
+    bottom: 48px;
+    font-weight: 700;
+}
+
+.cancel-order:hover {
+    color: hsl(223, 47%, 23%);
+    transition: 0.2s ease-out;
+    cursor: pointer;
+}
