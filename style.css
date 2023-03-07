@@ -56,7 +56,7 @@
 .top-section {
     width: 25vw;
     height: 25vh;
-    background-image: url(/order-summary-component-main/images/illustration-hero.svg);
+    background-image: url(/images/illustration-hero.svg);
     background-size: cover;
     border-radius: 25px;
     border-bottom-left-radius: 0;
