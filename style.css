@@ -146,7 +146,7 @@
     border-radius: 15px;
     font-weight: 600;
     justify-content: center;
-    box-shadow: 0 30px 5px hsla(240, 1%, 61%, 0.125);
+    box-shadow: 0 23px 5px hsla(240, 1%, 61%, 0.125);
     position: relative;
     bottom: 45px;
 }
