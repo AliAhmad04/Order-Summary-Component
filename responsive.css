@@ -1,0 +1,22 @@
+@media screen and (max-width: 375px) {
+    .card {
+        width: 94vw;
+    }
+
+    .top-section {
+        width: 94vw;
+        height: 20vh;
+        padding-inline: 40px;
+    }
+    .payment-box {
+        width: 80vw;
+        height: 11vh;
+    }
+
+    .annual-plan {
+        padding-left: 45px;
+    }
+    .purple-btn {
+        width: 80vw;
+    }
+}
